@@ -7,7 +7,7 @@ by Momoko Price
 
 
 
-1. Download or clone the [assignment repo from Github](#blah).
+1. Download or clone the [assignment repo from Github](https://github.com/MogwaiMomo/getting-cleaning-data-assignment).
 
 2. Open the file run_analysis.R in R or RStudio (RStudio is recommended!)
 
