@@ -145,8 +145,8 @@ if (!file.exists(output_dirname)){
   dir.create(output_dirname)
 }
 # save dataset to file for Step 4 of Assignment
-write.table(Step_4_final_dataset, paste(output_dirname, "step_4_data.txt", sep="/"))
+write.table(Step_4_final_dataset, paste(output_dirname, "step_4_data.txt", sep="/"), row.name=FALSE)
 
 # save dataset to file for Step 5 of Assignment
-write.table(Step_5_final_dataset, paste(output_dirname, "step_5_data.txt", sep="/"))
+write.table(Step_5_final_dataset, paste(output_dirname, "step_5_data.txt", sep="/"), row.name=FALSE)
 
